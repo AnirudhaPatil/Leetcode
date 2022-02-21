@@ -1,6 +1,6 @@
 package org.anirudha.practice.leetcode.arrays;
 
-import org.anirudha.practice.leetcode.arrays.utils.Helper;
+import org.anirudha.practice.leetcode.arrays.utils.PrintUtils;
 
 /**
  * https://leetcode.com/problems/build-array-from-permutation/
@@ -48,6 +48,6 @@ public class BuildArrayFromPermutation {
     public static void main(String[] args) {
         int[] nums = new int[]{5,0,1,2,3,4};
         int[] ans = buildArray(nums);
-        Helper.printArray(ans);
+        PrintUtils.printArray(ans);
     }
 }

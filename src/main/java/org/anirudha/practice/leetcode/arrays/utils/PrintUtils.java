@@ -1,10 +1,10 @@
 package org.anirudha.practice.leetcode.arrays.utils;
 
-public final class Helper {
+public final class PrintUtils {
 
     private static final String COMMA_SPACE = ", ";
 
-    private Helper() {
+    private PrintUtils() {
     }
 
     public static void printArray(int[] arr) {

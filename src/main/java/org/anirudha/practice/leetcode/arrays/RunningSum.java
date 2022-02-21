@@ -1,6 +1,6 @@
 package org.anirudha.practice.leetcode.arrays;
 
-import org.anirudha.practice.leetcode.arrays.utils.Helper;
+import org.anirudha.practice.leetcode.arrays.utils.PrintUtils;
 
 /**
  * 1480. Running Sum of 1d Array
@@ -50,6 +50,6 @@ public class RunningSum {
     public static void main(String[] args) {
         int[] nums = new int[]{1,1,1,1,1};
         int[] ans = runningSum(nums);
-        Helper.printArray(ans);
+        PrintUtils.printArray(ans);
     }
 }

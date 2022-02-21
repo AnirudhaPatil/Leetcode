@@ -1,8 +1,6 @@
 package org.anirudha.practice.leetcode.arrays;
 
-import java.util.Arrays;
-
-import org.anirudha.practice.leetcode.arrays.utils.Helper;
+import org.anirudha.practice.leetcode.arrays.utils.PrintUtils;
 
 /**
  * 1929. Concatenation of Array
@@ -52,6 +50,6 @@ public class ConcatenateArray {
     public static void main(String[] args) {
         int[] nums = new int[]{1,3,2,1};
         int[] ans = getConcatenation(nums);
-        Helper.printArray(ans);
+        PrintUtils.printArray(ans);
     }
 }
